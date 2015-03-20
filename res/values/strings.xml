@@ -3,5 +3,11 @@
 
     <string name="app_name">BotonesActivity</string>
     <string name="hello_world">Hello world!</string>
+    <string name="name">Name:</string>
+    <string name="surname">Surname:</string>
+    <string name="mail">e-mail:</string>
+    <string name="pw">Password:</string>
+    <string name="rpw">Repeat password:</string>
+    <string name="det">Details:</string>
 
 </resources>

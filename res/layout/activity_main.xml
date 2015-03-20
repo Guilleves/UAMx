@@ -4,9 +4,141 @@
     android:layout_height="match_parent"
     tools:context="${relativePackage}.${activityClass}" >
 
-    <TextView
+    <ScrollView
+        android:id="@+id/scrollView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" >
+    </ScrollView>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/TableRow05"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/name" />
+
+            <EditText
+                android:id="@+id/EditText05"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow04"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/surname" />
+
+            <EditText
+                android:id="@+id/EditText04"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow03"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/mail" />
+
+            <EditText
+                android:id="@+id/EditText03"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/pw" />
+
+            <EditText
+                android:id="@+id/EditText02"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/rpw" />
+
+            <EditText
+                android:id="@+id/EditText01"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" ></EditText>
+        </TableRow>
+                
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:text="@string/det" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                />
+		
+        </TableRow> 
+        
+
+                <requestFocus />
+            
+        
+
+
+    </TableLayout>
 
 </RelativeLayout>
